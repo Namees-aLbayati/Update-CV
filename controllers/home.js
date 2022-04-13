@@ -10,4 +10,8 @@ router.get('/about',async(req,res)=>{
 router.get('/projects',async(req,res)=>{
     res.sendFile(path.join(__dirname,"../views/projects.html"))
 })
+
+router.get('/contact',async(req,res)=>{
+    res.sendFile(path.join(__dirname,"../views/contactme.html"))
+})
 module.exports=router
