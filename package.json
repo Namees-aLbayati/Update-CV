@@ -7,10 +7,14 @@
     "express": "^4.17.3",
     "express-handlebars": "^6.0.4",
     "express-session": "^1.17.2",
+    "fs": "^0.0.1-security",
     "multiparty": "^4.2.3",
     "mysql2": "^2.3.3",
     "nodemailer": "^6.7.3",
     "path": "^0.12.7",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^2.0.1",
+    "pdfreader": "^2.0.0",
     "sequelize": "^6.18.0",
     "swiper": "^8.1.0"
   }
